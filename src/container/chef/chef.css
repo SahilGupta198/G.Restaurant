@@ -1,0 +1,45 @@
+.app_chef-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3rem;
+}
+.app_chef-content-quote{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.app_chef-content p{
+    color: var(--color-grey);
+    line-height: 1.6rem;
+}
+.app_chef-content-quote img{
+    width: 3rem;
+    height: 2.5rem;
+    margin: 0 1rem 1rem 0;
+}
+.app_chef-sign{
+    width: 100%;
+    margin-top: 3rem;
+}
+.app_chef-sign p:first-child{
+    font: 400 2rem var(--font-base);
+    line-height: 2.5rem;
+    letter-spacing: 0.04rem;
+}
+.app_chef-sign img{
+    width: 12rem;
+    margin-top: 3rem;
+}
+
+@media screen and (min-width: 2000px) {
+    .app_chef-sign img {
+        width: 23.1rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app_chef-sign img {
+        width: 80%;
+    }
+}

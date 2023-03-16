@@ -1,0 +1,17 @@
+.app_header{
+    background-color: var(--color-black);
+}
+.app_header-h1{
+    font: 600 5.6rem var(--font-base);
+    line-height: 6rem;
+    letter-spacing: 0.04rem;
+    text-transform: uppercase;
+    color: var(--color-golden);
+}
+.app_header-p{
+    font-size: 0.9rem !important;
+    line-height: 1.5rem !important;
+}
+.app_header-image img{
+    width: 70% !important;
+}
